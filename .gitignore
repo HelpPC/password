@@ -1,0 +1,8 @@
+/app/config/config.local.neon
+/log/*
+/temp/*
+/vendor/*
+/.idea
+/www/webtemp/*
+/app/webTemp/*
+/backup/

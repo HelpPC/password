@@ -1,0 +1,24 @@
+{
+  "name": "helppc/password",
+  "description": "Password",
+  "type": "project",
+  "require": {
+    "php": ">= 7.1",
+    "nette/application": "^2.4",
+    "nette/utils": "^2.4"
+  },
+  "require-dev": {
+    "nette/tester": "^2.0"
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "platform": {
+      "php": "7.1"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "HelpPC\\": "src/"
+    }
+  }
+}
