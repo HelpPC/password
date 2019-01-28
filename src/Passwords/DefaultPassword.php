@@ -11,11 +11,9 @@ namespace HelpPC\Passwords;
 
 use Nette\InvalidArgumentException;
 use Nette\InvalidStateException;
-use Nette\StaticClass;
 
 class DefaultPassword implements IPasswords
 {
-    use StaticClass;
     const HASH_KEY = 'algjhsdiouahwergoiuawhgiouaehnrgzdfgb23523';
 
     public static function appendDefaultOptions(array $options): array
