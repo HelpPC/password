@@ -3,7 +3,8 @@
   "description": "Password",
   "type": "project",
   "require": {
-    "php": ">= 7.1"
+    "php": ">= 7.1",
+    "helppc/exceptions": "^0.1"
   },
   "require-dev": {
     "nette/tester": "^2.0"
