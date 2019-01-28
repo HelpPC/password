@@ -4,8 +4,7 @@
   "type": "project",
   "require": {
     "php": ">= 7.1",
-    "nette/application": "^2.4",
-    "nette/utils": "^2.4"
+    "helppc/exceptions": "^0.1"
   },
   "require-dev": {
     "nette/tester": "^2.0"

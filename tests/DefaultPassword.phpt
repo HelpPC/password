@@ -25,10 +25,10 @@ Assert::true(!empty($hash), 'Hash is empty');
 
 Assert::exception(function () use ($password) {
     \HelpPC\Passwords\DefaultPassword::hash($password, ['cost' => 3]);
-}, \Nette\InvalidArgumentException::class);
+}, \HelpPC\Exceptions\InvalidArgumentException::class);
 Assert::exception(function () use ($password) {
     \HelpPC\Passwords\DefaultPassword::hash($password, ['cost' => 40]);
-}, \Nette\InvalidArgumentException::class);
+}, \HelpPC\Exceptions\InvalidArgumentException::class);
 
 Assert::true(\HelpPC\Passwords\DefaultPassword::verify($password, $hash), 'Password is invalid');
 
