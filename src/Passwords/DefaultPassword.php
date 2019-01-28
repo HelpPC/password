@@ -9,8 +9,8 @@
 namespace HelpPC\Passwords;
 
 
-use Nette\InvalidArgumentException;
-use Nette\InvalidStateException;
+use HelpPC\Exceptions\InvalidArgumentException;
+use HelpPC\Exceptions\InvalidStateException;
 
 class DefaultPassword implements IPasswords
 {
